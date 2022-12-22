@@ -1,0 +1,17 @@
+dataset:
+  data_dir: 'dataset/stc'
+  trim_padding: True
+  labels: ['Solidary', 'Anti-Solidary', 'Other']
+model:
+  name: 'xlm-roberta-large'
+  dropout: 0.3
+  max_len: 64
+  save_dir: 'solidarity-twitter-classification/outputs'
+  save_best: 'best_roberta.pt'
+  save_last: 'last_roberta.pt'
+train:
+  seed: 1111
+  batch_size: 16
+  epochs: 10
+  lr: 5.0e-6
+  eps: 1.0e-8
