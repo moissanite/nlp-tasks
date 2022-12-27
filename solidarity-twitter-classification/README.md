@@ -13,5 +13,12 @@
 
     > #Moria evakuieren ist ein Gebot der Menschenrechte und der Humanität. Sozialdemokratie und christliche Werte bestimmen ja zum Glück die europäische und deutsche Politik. #LeaveNoOneBehind
 
+## Training
+Finetune RoBERTa
+```bash
+python3 train.py \
+    --config config/experiment_roberta.yaml
+```
+
 ## Results
 * See twitter-classification.ipynb
