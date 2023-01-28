@@ -21,4 +21,6 @@ python3 train.py \
 ```
 
 ## Results
-* See twitter-classification.ipynb
+<img src="./img/result.png" alt="results" width="392" height="374" title="results">
+
+* See also twitter-classification.ipynb
